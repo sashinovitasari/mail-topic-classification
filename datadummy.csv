@@ -1,0 +1,191 @@
+ID,text,label
+1064,"From: yeoy@a.cs.okstate.edu (YEO YEK CHONG)
+Subject: Re: Is ""Kermit"" available for Windows 3.0/3.1?
+Organization: Oklahoma State University
+Lines: 7
+
+From article <a4Fm3B1w165w@vicuna.ocunix.on.ca>, by Steve Frampton <frampton@vicuna.ocunix.on.ca>:
+> I was wondering, is the ""Kermit"" package (the actual package, not a
+
+Yes!  In the usual ftp sites.
+
+Yek CHong
+
+",comp.os.ms-windows.misc
+1065,"Subject: WIN STORM PC
+From: srini@shannon.tisl.ukans.edu (Srini Seetharam)
+Reply-To: srini@shannon.tisl.ukans.edu (Srini Seetharam)
+Distribution: world
+Organization: Elec. & Comp. Eng., Univ. of Kansas
+Nntp-Posting-Host: erlang.tisl.ukans.edu
+Originator: srini@erlang
+Lines: 10
+
+
+Anyone have any info. on the video/sound card from SIGMA designs.
+It is called WIN STORM PC.
+They also have another card called the legend 24lx
+
+any info would be appreciated, incuding performance, pricing and
+availability.
+thanks
+
+srini
+",comp.os.ms-windows.misc
+1066,"Subject: Re: Win31 & doublespace
+From: edowdy@vax1.umkc.edu
+Organization: University of Missouri - Kansas City
+NNTP-Posting-Host: vax1.umkc.edu
+Lines: 33
+
+In article <4363@hpwala.wal.hp.com>, chrisa@hpwarr.hp.com ( Chris Almy) writes:
+> 
+> 	Doublespace, although I do not trust it for my hard disks, sounds
+> 	great for floppies. The thouoght of having to mount the disk
+> 	is anoying but something I can deal with. The problem arises 
+> 	when under windows. Is there a way to mount and unmount while
+> 	under windows or is this part of the upgrades soon to be 
+> 	available from other vendors?
+> 
+> 
+.Chris
+
+
+I can't see why you would not trust it because it is safer than any previous
+compression programs. It integrates into the kernal and makes it nearly
+impossible to delete. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",comp.os.ms-windows.misc
+1067,"From: phoenix.Princeton.EDU!carlosn (Carlos G. Niederstrasser)
+Subject: MS Mouse Driver 8.2
+Originator: news@nimaster
+Nntp-Posting-Host: aisle.princeton.edu
+Organization: Princeton University
+Lines: 15
+
+Does anyone have the documentation for the MS Mouse Driver 8.2?  I got it when  
+I got Windows 3.1, but my Windows manual does not come with the documentation.   
+In particular I need to know how to turn it off, and how to speed it up  
+outside windows.  The greater sensitivity is needed so I can play various  
+games, esp X-wing :)
+
+---
+---------------------------------------------------------------------
+| Carlos G. Niederstrasser        |  Only two things are infinite,  |
+| Princeton Planetary Society     |      the universe and human     |
+|                                 |   stupidity, and I'm not sure   |
+|                                 |   about the former. - Einstein  |
+| carlosn@phoenix.princeton.edu   |---------------------------------|
+| space@phoenix.princeton.edu     |    Ad Astra per Ardua Nostra    |
+---------------------------------------------------------------------
+",comp.os.ms-windows.misc
+1068,"From: holmes7000@iscsvax.uni.edu
+Subject: WIn 3.0 ICON HELP PLEASE!
+Organization: University of Northern Iowa
+Lines: 10
+
+I have win 3.0 and downloaded several icons and BMP's but I can't figure out
+how to change the ""wallpaper"" or use the icons.  Any help would be appreciated.
+
+
+Thanx,
+
+-Brando
+
+PS Please E-mail me
+
+",comp.os.ms-windows.misc
+1069,"Subject: Is SMARTDRV.EXE causing bad sectors on my hd?
+From: jdriver@netlink.cts.com (John Driver)
+Organization: NetLink Online Communications, San Diego CA
+Lines: 47
+
+        I am having something very unusual happen.  First 
+some background on my system.  I have a Mitsubishi 63 meg Hard Drive, 
+and am running Smartdrv (the version that comes with Windows 3.1) on 
+it.  I rarely use Windows.  I use a program called Disk Technician 
+Gold v1.14 to do diagnostics live time on my hard drive.  It works by 
+having a device driver detect whenever more than one read is 
+necessary for a file, or if there is anything else is wrong with it, 
+and minor problems are fully checked out upon rebooting.  My hard 
+drive is notorious for bad sectors.  I usually end up with 8 new bad 
+sectors a week.
+ 
+        Here's what happened:  I ran a program, and DTG broke in with 
+an Emergency Warning and recommended I reboot.  It gave me this 
+message twice before the program was fully loaded.  I exited the program 
+and did just this.  DTG went through its bootup process, examining 
+for new errors etc., and a screen popped up and said something about 
+sectors for a brief period of time.
+ 
+        I then went back to the program, executed it again, and the 
+exact same error was detected.  I rebooted and tried again, and the 
+same error happened again.  So, I removed DTG from memory, and went 
+to the program to see if I could detect anything wrong.  Sure enough 
+there was a number of read attempts.  So I rebooted and reloaded DTG, 
+but removed the cache.  I executed the program.  No read errors, 
+either audible or detected by DTG.  I quit the program, loaded the 
+cache, and ran the program again.  The errors were detected.
+ 
+        Ok, so the errors are there, and DTG detects but doesn't fix 
+them, when the cache is loaded.  When the cache is not loaded there are 
+no errors.  So, to see if the cache was interfering with any other 
+files, I went into xtree gold and tagged all files, and searched them 
+for a random string (in other words, I wanted the program to 
+completely read every file on my hard drive).  Before I got through 
+the c's DTG had detected at least six errors and recommended I reboot.
+ 
+        Does anybody, have any idea why Smartdrv is causing misreads on 
+my hard drive?  Oh, there are exactly two misreads per file, and 1 in 
+about every 100 files are affected.  
+ 
+        I originally posted this message to Disk Technician Corp.'s 
+system, but I figured someone out in netland may know enough about 
+smartdrv to help me out.
+
+--                    
+INTERNET:  jdriver@netlink.cts.com (John Driver)
+UUCP:   ...!ryptyde!netlink!jdriver
+NetLink Online Communications * Public Access in San Diego, CA (619) 453-1115
+",comp.os.ms-windows.misc
+1070,"From: kmembry@viamar.UUCP (Kirk Membry)
+Subject: Re: MS-Windows access for the blind?
+Reply-To: rutgers!viamar!kmembry
+Organization: Private System
+Lines: 18
+
+In <1993Apr22.235454.18199@seas.gwu.edu> louray@seas.gwu.edu (Michael Panayiotakis) writes:
+
+>AT the MICRO$OFT display at FOSE, there were a few computers running
+>windows, and win. apps for the  blind, I think.  Didn't pay much
+>attention to it, but it was there.
+
+It seems that a particular program designed for blind people is more important
+than trying to interface windows with a way for blind people to use it.
+If someone made a voice recognition/multimedia (sound) oriented program,
+it would probably been more effective.  I don't know what the original
+purpose of interfacing windows was for the person who posted the question
+though.
+
+-- 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Kirk Membry                                    ""Our Age is the Age of Industry""
+rutgers!viamar!kmembry                         - Alexander Rodchenko
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+",comp.os.ms-windows.misc

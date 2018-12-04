@@ -1,0 +1,31 @@
+key:
+DZZIcmsfMYADhF4lqPkWs8b0u6TUHlZh
+
+A. dataset_URL
+--1. request dataset ID
+	cmd:
+		curl -X POST https://api.a3rt.recruit-tech.co.jp/text_classification/v1/dataset -d apikey=DZZIcmsfMYADhF4lqPkWs8b0u6TUHlZh
+	res:
+{"status": 0, "message": "ok", "dataset_id": "51d44dfb-f3a6-431e-ab38-77653ab5392a", "dataset_url": "https://a3rt-classification.s3.amazonaws.com/51d44dfb-f3a6-431e-ab38-77653ab5392a?Signature=urLx3nWBypJ4Ti3UjZK7f7j8%2B2M%3D&Expires=1543930213&AWSAccessKeyId=AKIAIJWYSBX56JFOEFTA"}
+
+--2. put dataset to dataset_url
+	cmd:
+		curl -D - -X PUT --upload-file data_naist_train_dev.csv 'https://a3rt-classification.s3.amazonaws.com/51d44dfb-f3a6-431e-ab38-77653ab5392a?Signature=urLx3nWBypJ4Ti3UjZK7f7j8%2B2M%3D&Expires=1543930213&AWSAccessKeyId=AKIAIJWYSBX56JFOEFTA'
+	res:
+HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+x-amz-id-2: Dxufnt/5tMNlrIbZvItfdsVZdEnHN62cjw8NzaYqtP9uwgwiVCiX/0e1VdVnl4cbt0qQZtC6aIE=
+x-amz-request-id: D22683737B04A5CF
+Date: Tue, 04 Dec 2018 13:29:07 GMT
+ETag: "239d9a0dea0c745c29c3470f8fa05a70"
+Content-Length: 0
+Server: AmazonS3
+
+
+
+
+B. create model
+	cmd:
+		curl -X POST https://api.a3rt.recruit-tech.co.jp/text_classification/v1/model -d apikey=DZZIcmsfMYADhF4lqPkWs8b0u6TUHlZh -d dataset_id='51d44dfb-f3a6-431e-ab38-77653ab5392a'
+
